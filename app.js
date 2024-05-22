@@ -1,5 +1,3 @@
-import.meta.glob(['./assets/polyhedrons/**'])
-import.meta.glob(['./assets/fonts/**'])
 import './styles/main.scss'
 
 // Global Scope DATA
