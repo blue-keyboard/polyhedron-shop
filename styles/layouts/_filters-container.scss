@@ -1,0 +1,35 @@
+.filters-container {
+   margin-top: 100px;
+   padding: 2em;
+   position: relative;
+
+   &--filters {
+      // width: 260px;
+      // position: sticky;
+
+      & > * {
+         width: 212px;
+      }
+
+      background-color: #fff;
+      padding: 2em;
+      border-radius: $border-radius;
+      box-shadow: $box-shadow;
+
+      @media (min-width: 672px) and (max-width: 1350px) {
+         width: 600px;
+         display: flex;
+         gap: 3em;
+         margin-top: 0;
+         padding: 1.5em 2em;
+         justify-content: space-between;
+      }
+   }
+
+   @media (max-width: 1350px) {
+      display: flex;
+      margin-top: 0;
+      justify-content: center;
+      align-items: center;
+   }
+}

@@ -1,0 +1,15 @@
+%flex-center {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+%appearance-inputs {
+   outline: none;
+   height: 24px;
+   background-color: white;
+   border: $border-inputs;
+   border-radius: 9px;
+   box-shadow: $box-shadow-inputs;
+   text-align: center;
+}

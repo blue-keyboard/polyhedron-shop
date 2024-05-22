@@ -1,0 +1,53 @@
+.header {
+   height: 80px;
+   @extend %flex-center;
+   font-family: 'polyhedrafont';
+   letter-spacing: 12px;
+
+   @media (max-width: 600px) {
+      margin: -16px 0;
+      scale: 0.65;
+   }
+
+   span {
+      height: 50px;
+      margin-top: 6px;
+      font-size: 50px;
+      @extend %flex-center;
+   }
+
+   .letter-1 {
+      color: #7e505b;
+   }
+   .letter-2 {
+      color: #b57873;
+   }
+   .letter-3 {
+      color: #c7856d;
+   }
+   .letter-4 {
+      color: #e5b090;
+   }
+   .letter-5 {
+      color: #cca3a7;
+   }
+   .letter-6 {
+      color: #b5a8c4;
+   }
+   .letter-7 {
+      color: #9da8ba;
+      color: #8b8ab2;
+      color: #9c9fca;
+   }
+   .letter-8 {
+      color: #8b8ab2;
+      color: #8c81ab;
+      letter-spacing: 0;
+   }
+
+   #o-letter {
+      width: 54px;
+      height: 54px;
+      margin: 0 16px 0 -2px;
+   }
+}

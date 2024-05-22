@@ -1,0 +1,11 @@
+.app-container {
+   display: flex;
+   margin-top: 3em;
+
+   @media (max-width: 1349px) {
+      margin-top: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}

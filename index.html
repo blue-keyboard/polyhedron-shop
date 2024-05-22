@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Rubik+Doodle+Triangles&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="icon" href="./assets/polyhedrons/o-letter.svg" />
+
+      <script type="module" src="app.js" defer></script>
+      <title>Polyhedra</title>
+   </head>
+   <body>
+      <header class="header">
+         <span class="letter-1">P</span
+         ><img
+            id="o-letter"
+            src="./assets/polyhedrons/o-letter.svg"
+            alt="o-letter-polyhedron"
+         />
+         <span class="letter-2">L</span>
+         <span class="letter-3">Y</span>
+         <span class="letter-4">H</span>
+         <span class="letter-5">E</span>
+         <span class="letter-6">D</span>
+         <span class="letter-7">R</span>
+         <span class="letter-8">A</span>
+      </header>
+      <div class="app-container">
+         <div class="filters-container">
+            <div class="filters-container--filters">
+               <div class="price-range">
+                  <h3 class="price-range--title">Price range</h3>
+                  <div class="price-input--wrapper">
+                      <input
+                      id="price-slider"
+                      type="range"  
+                      id="volume"
+                      name="volume"
+                      min="0"
+                      max="99999"
+                      />
+                      <input class="display-price" type="number" value=""></input>
+                  </div>
+               </div>
+               <div class="sellers">
+                <h3 class="sellers--title">Sellers</h3>
+                <select name="sellers" class="sellers--select">
+
+                </select>
+               </div>
+            </div>
+         </div>
+
+         <div class="products-container"></div>
+      </div>
+      
+      <footer></footer>
+   </body>
+</html>

@@ -1,0 +1,22 @@
+.sellers {
+   width: 100%;
+
+   &--title {
+      margin-bottom: 0.5em;
+   }
+
+   select {
+      width: 100%;
+      // appearance: none;
+      // background-color: #9c9fca;
+      @extend %appearance-inputs;
+
+      option {
+         &:hover {
+            appearance: none;
+            background-color: $secondary-color !important;
+            color: white;
+         }
+      }
+   }
+}

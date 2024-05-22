@@ -1,0 +1,16 @@
+//Globals
+@import './globals/variables';
+@import './globals/setup';
+@import './globals/extends';
+
+//Layouts
+@import './layouts/header';
+@import './layouts/app-container';
+@import './layouts/filters-container';
+@import './layouts/products-container';
+@import './layouts/footer';
+
+//Components
+@import './components/product-card';
+@import './components/price-range-input';
+@import './components/select-input';

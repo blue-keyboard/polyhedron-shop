@@ -1,0 +1,26 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(255, 244, 232);
+   font-family: Inter, Roboto;
+}
+
+@font-face {
+   font-family: polyhedrafont;
+   src: url(../../assets/fonts/throwback.ttf);
+}
+
+a {
+   color: $terciary-color;
+   text-decoration: underline;
+   text-decoration-color: transparent;
+   transition: ease-in 0.2s;
+
+   &:hover {
+      text-decoration-color: $terciary-color;
+   }
+}
