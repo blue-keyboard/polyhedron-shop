@@ -1,10 +1,12 @@
+import.meta.glob(['./assets/polyhedrons/**'])
+import.meta.glob(['./assets/fonts/**'])
 import './styles/main.scss'
 
 // Global Scope DATA
 const POLYHEDRONS_PRODUCTS = [
    {
       name: 'Cube',
-      img: './assets/polyhedrons/cube.svg',
+      img: './cube.svg',
       seller: 'Plato',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -12,15 +14,15 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Tetrahedron',
-      img: './assets/polyhedrons/tetrahedron.svg',
+      img: './tetrahedron.svg',
       seller: 'Plato',
       description:
-         'Now the form of the solid which has the smallest number of bases, being the simplest and most mobile of the four, was assigned to fire.',
+         "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
       price: 120
    },
    {
       name: 'Octahedron',
-      img: './assets/polyhedrons/octahedron.svg',
+      img: './octahedron.svg',
       seller: 'Plato',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -28,7 +30,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Dodecahedron',
-      img: './assets/polyhedrons/dodecahedron.svg',
+      img: './dodecahedron.svg',
       seller: 'Plato',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -36,7 +38,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Icosahedron',
-      img: './assets/polyhedrons/icosahedron.svg',
+      img: './icosahedron.svg',
       seller: 'Plato',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -44,7 +46,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Cuboctahedron',
-      img: './assets/polyhedrons/cuboctahedron.svg',
+      img: './cuboctahedron.svg',
       seller: 'Archimedes',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -52,7 +54,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Snub Cube',
-      img: './assets/polyhedrons/snub-cube.svg',
+      img: './snub-cube.svg',
       seller: 'Archimedes',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -60,7 +62,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Rhombicosido',
-      img: './assets/polyhedrons/rhombicosidodecahedron.svg',
+      img: './rhombicosidodecahedron.svg',
       seller: 'Archimedes',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -68,7 +70,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Rhombicuboctahedron',
-      img: 'assets/polyhedrons/rhombicuboctahedron.svg',
+      img: 'rhombicuboctahedron.svg',
       seller: 'Archimedes',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -76,7 +78,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Snub Dodecahedron',
-      img: './assets/polyhedrons/snub-dodecahedron.svg',
+      img: './snub-dodecahedron.svg',
       seller: 'Archimedes',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -84,7 +86,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Stellated Dodecahedron',
-      img: './assets/polyhedrons/stellated-dodecahedron.svg',
+      img: './stellated-dodecahedron.svg',
       seller: 'Kepler',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -92,7 +94,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Urchin',
-      img: './assets/polyhedrons/urchin.svg',
+      img: './urchin.svg',
       seller: 'Kepler',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -100,7 +102,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Great Dodecahedron',
-      img: './assets/polyhedrons/great-dodecahedron.svg',
+      img: './great-dodecahedron.svg',
       seller: 'Kepler',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -108,7 +110,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Great Icosahedron',
-      img: './assets/polyhedrons/great-icosahedron.svg',
+      img: './great-icosahedron.svg',
       seller: 'Kepler',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -116,7 +118,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Cube Octahedron',
-      img: './assets/polyhedrons/cube-octahedron.svg',
+      img: './cube-octahedron.svg',
       seller: 'Escher',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -124,7 +126,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Escher Solid',
-      img: './assets/polyhedrons/escher-solid.svg',
+      img: './escher-solid.svg',
       seller: 'Escher',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -132,7 +134,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: 'Cube 3',
-      img: './assets/polyhedrons/cube-3.svg',
+      img: './cube-3.svg',
       seller: 'Escher',
       description:
          "Enigmatic shapes unveil cosmic truths, patterns echoing the universe's heartbeat.",
@@ -140,7 +142,7 @@ const POLYHEDRONS_PRODUCTS = [
    },
    {
       name: "Chameleon's Cage",
-      img: './assets/polyhedrons/chameleon-cage.svg',
+      img: './chameleon-cage.svg',
       seller: 'Escher',
       description:
          'The mathematical orderliness of polyhedra depicts the stability and timeless quality of the heavens',
